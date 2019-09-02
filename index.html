@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Tic-tac-toe</title>
+  <link href="https://fonts.googleapis.com/css?family=Josefin+Slab:700" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Josefin+Sans:700" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+
+  <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css'>
+
+      <link rel="stylesheet" href="./style.css">
+
+  
+</head>
+
+<body>
+
+  <div class="modal fade" id="choose">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title text-center">Choose <i class="fa fa-times"></i> or <i class="fa fa-circle-o"></i></h4>
+        <h5 class="modal-title text-center">(<i class="fa fa-times"></i> moves first)</h5>
+      </div>
+      <div class="text-center modal-body">
+        <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i></button><button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-circle-o"></i></button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="computer-wins">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title text-center">Computer wins!</h4>
+      </div>
+      <div class="text-center modal-body">
+        <h5 class="new">New game</h5>
+        <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i></button><button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-circle-o"></i></button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="draw">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title text-center">Draw!</h4>
+      </div>
+      <div class="text-center modal-body">
+        <h5 class="new">New game</h5>
+        <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i></button><button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-circle-o"></i></button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <h1 class="text-center">Tic-tac-toe</h1>
+    </div>
+  </div>
+  
+  <div class="row" align="center">
+    <div class="col-md-12">
+      <button id="0" class="board">-</button><button id="1" class="board mid-col">-</button><button id="2" class="board">-</button>
+    </div>
+  </div>
+  
+  <div class="row" align="center">
+    <div class="col-md-12">
+      <button id="3" class="board mid-row">-</button><button id="4" class="board mid-col mid-row">-</button><button id="5" class="board mid-row">-</button>
+    </div>
+  </div>
+  
+  <div class="row" align="center">
+    <div class="col-md-12">
+      <button id="6" class="board">-</button><button id="7" class="board mid-col">-</button><button id="8" class="board">-</button>
+    </div>
+  </div>
+  
+</div>
+  <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
+<script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js'></script>
+
+  
+
+    <script  src="./script.js"></script>
+
+
+
+
+</body>
+
+</html>

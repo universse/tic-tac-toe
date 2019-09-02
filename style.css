@@ -1,0 +1,61 @@
+.modal-title {
+  font-family: "Josefin Sans", sans-serif;  
+}
+
+.new {
+  font-family: "Josefin Slab", sans-serif;
+  
+}
+
+h4 {
+  font-size: 36px;
+}
+
+h5 {
+  font-size: 24px;
+}
+
+.btn {
+  font-size: 32px;
+  height: 50px;
+  width: 50px;
+  padding: 0;
+  margin: 5px;
+}
+
+body {
+  color: #333;
+}
+
+h1 {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 48px;
+  margin: 40px;
+}
+
+.board {
+  height: 100px;
+  width: 100px;
+  background-color: #fff;
+  font-size: 40px;
+  border: none;
+  color: #fff;
+}
+
+.board:focus {
+  outline: none;
+}
+
+.mid-col {
+  border-left: 3px solid #000;
+  border-right: 3px solid #000;
+}
+
+.mid-row {
+  border-top: 3px solid #000;
+  border-bottom: 3px solid #000;
+}
+
+.fa {
+  color: #333;
+}
